@@ -30,4 +30,5 @@ public:
     virtual uint get_initial_hp() = 0;
     void set_hp(uint hp) { m_hp = hp; };
     Type get_type() { return m_t; }
+    uint getPlayerNumber() { return m_player_number; }
 };

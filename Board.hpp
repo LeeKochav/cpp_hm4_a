@@ -18,6 +18,7 @@ namespace WarGame
 
     class Board
     {
+
     private:
         std::vector<std::vector<Soldier *>> board;
 
